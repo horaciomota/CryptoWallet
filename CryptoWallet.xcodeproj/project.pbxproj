@@ -51,8 +51,9 @@
 		83A5616B2AC4B2B7000B5BAF /* CryptoWallet */ = {
 			isa = PBXGroup;
 			children = (
+				83A5617B2AC4B3D4000B5BAF /* Views */,
+				83A5617A2AC4B3C7000B5BAF /* Network */,
 				83A5616C2AC4B2B7000B5BAF /* CryptoWalletApp.swift */,
-				83A5616E2AC4B2B7000B5BAF /* ContentView.swift */,
 				83A561702AC4B2B9000B5BAF /* Assets.xcassets */,
 				83A561722AC4B2B9000B5BAF /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				83A561732AC4B2B9000B5BAF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83A5617A2AC4B3C7000B5BAF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		83A5617B2AC4B3D4000B5BAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83A5616E2AC4B2B7000B5BAF /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
