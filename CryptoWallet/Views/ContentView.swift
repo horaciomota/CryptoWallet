@@ -12,20 +12,54 @@ struct ContentView: View {
         
         //Login Image - Rounded
         
+        VStack {
+            HStack (alignment: .center) {
+                Circle()
+                    .foregroundColor(.red)
+                    .frame(width: 32, height: 32)
+                
+                VStack (alignment: .leading)  {
+                    Text("Welcome back")
+                        .foregroundColor(.primary)
+                        .font(.footnote)
+                    Text("Horacio Mota")
+                        .foregroundColor(.primary)
+                        .font(.headline)
+                }
+                
+                HStack {
+                    HStack {
+                        Text("$ USD")
+                            .font(.footnote)
+                            .colorInvert()
+        
+                        Image(systemName: "arrow.down.forward")
+                            .colorInvert()
+
+                    }
+                    .padding(12)
+                    .background(Color.gray)
+                    .cornerRadius(22)
+                    
+                    Image(systemName: "arrow.down.forward")
+                }
+                
+            
+                
+                
+            }
+            
+        }
+        .frame(width: .infinity)
+        
+        
         //Account balance
         
         //List of coins
         
         //List of expenses
         
-        
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        
+        Spacer()
         
         
         
