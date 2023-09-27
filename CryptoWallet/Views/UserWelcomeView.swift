@@ -20,7 +20,7 @@ struct UserWelcomeView: View {
                         Text("Welcome back")
                             .foregroundColor(.secondary)
                             .font(.footnote)
-                        Text("Horacio Mota")
+                        Text("Horacio")
                             .foregroundColor(.primary)
                             .font(.headline)
                     }
@@ -38,19 +38,24 @@ struct UserWelcomeView: View {
                             .font(.footnote)
                     }
                     .padding(12)
-                    .background(Color.secondary.opacity(0.5))
+                    .background(Color.secondary.opacity(0.3))
                     .cornerRadius(22)
                                         
                     Image(systemName: "externaldrive")
                         .padding(12)
-                        .background(Color.secondary.opacity(0.5))
+                        .background(Color.secondary.opacity(0.3))
                         .cornerRadius(22)
                 }
                 
-            
+            Divider()
                 
             }
-        .frame(width: .infinity)
+            .frame(height: 120)
+            .padding(.horizontal)
+            .background(Color.white)
+            .cornerRadius(22)
+
+
         
     }
 }
@@ -58,7 +63,6 @@ struct UserWelcomeView: View {
 struct UserWelcomeView_Previews: PreviewProvider {
     static var previews: some View {
         UserWelcomeView()
-            .padding(.horizontal)
     }
-    
+
 }

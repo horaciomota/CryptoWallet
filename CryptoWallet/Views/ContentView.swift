@@ -9,20 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-        //Login Image - Rounded
-        
-        UserWelcomeView()
-        
-        
-        //Account balance
-        
-        //List of coins
-        
-        //List of expenses
-        
-        Spacer()
-        
+        VStack {
+            VStack {
+                
+                //Login Image - Rounded
+                UserWelcomeView()
+                
+                
+                //Account balance
+                
+                //List of coins
+                
+                //List of expenses
+            }
+            .padding(.horizontal)
+            Spacer()
+            
+        }
+        .background(Color.blue.opacity(0.2))
+
         
         
         
