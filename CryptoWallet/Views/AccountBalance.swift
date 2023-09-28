@@ -21,7 +21,7 @@ struct AccountBalance: View {
                     .foregroundColor(.primary)
             }
             
-            VStack {
+            VStack (alignment: .leading)  {
                 Text("4,34%")
                     .font(.title)
                     .fontWeight(.bold)
@@ -29,6 +29,7 @@ struct AccountBalance: View {
             }
             
         }
+
 
     }
 }

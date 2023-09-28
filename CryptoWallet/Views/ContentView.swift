@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            VStack {
+            VStack (alignment: .leading) {
                 
                 //Login Image - Rounded
                 UserWelcomeView()
