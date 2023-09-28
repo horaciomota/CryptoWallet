@@ -15,6 +15,10 @@ struct ContentView: View {
                 //Login Image - Rounded
                 UserWelcomeView()
                 
+                SingleCoin()
+                    
+                
+                
                 
                 //Account balance
                 
