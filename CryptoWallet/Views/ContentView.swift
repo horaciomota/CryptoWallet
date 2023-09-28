@@ -14,6 +14,7 @@ struct ContentView: View {
                 
                 //Login Image - Rounded
                 UserWelcomeView()
+                AccountBalance ()
                 
                 
                 //Account balance

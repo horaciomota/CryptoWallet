@@ -49,6 +49,8 @@ struct UserWelcomeView: View {
                 
             Divider()
                 
+                
+                
             }
             .frame(height: 120)
             .padding(.horizontal)
