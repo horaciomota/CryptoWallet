@@ -12,7 +12,7 @@ struct AccountBalance: View {
         
         HStack(alignment:.bottom) {
             
-            VStack (alignment: .leading) {
+            VStack (alignment: .leading, spacing: 4) {
                 Text("Your account balance")
                     .font(.footnote)
                 Text("$30,432.09")
@@ -29,6 +29,9 @@ struct AccountBalance: View {
             }
             
         }
+        .padding(.top, 20)
+        .padding(.bottom, 20)
+
 
 
     }
