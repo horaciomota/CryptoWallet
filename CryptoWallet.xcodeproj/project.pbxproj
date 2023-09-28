@@ -13,6 +13,7 @@
 		83A561742AC4B2B9000B5BAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A561732AC4B2B9000B5BAF /* Preview Assets.xcassets */; };
 		83A5617E2AC4BE97000B5BAF /* UserWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5617D2AC4BE97000B5BAF /* UserWelcome.swift */; };
 		83A561802AC60236000B5BAF /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5617F2AC60236000B5BAF /* AccountBalance.swift */; };
+		83A561822AC619E9000B5BAF /* SingleCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561812AC619E9000B5BAF /* SingleCoin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		83A561732AC4B2B9000B5BAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83A5617D2AC4BE97000B5BAF /* UserWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWelcome.swift; sourceTree = "<group>"; };
 		83A5617F2AC60236000B5BAF /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
+		83A561812AC619E9000B5BAF /* SingleCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCoin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				83A5616E2AC4B2B7000B5BAF /* ContentView.swift */,
 				83A5617D2AC4BE97000B5BAF /* UserWelcome.swift */,
 				83A5617F2AC60236000B5BAF /* AccountBalance.swift */,
+				83A561812AC619E9000B5BAF /* SingleCoin.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A5616F2AC4B2B7000B5BAF /* ContentView.swift in Sources */,
+				83A561822AC619E9000B5BAF /* SingleCoin.swift in Sources */,
 				83A5617E2AC4BE97000B5BAF /* UserWelcome.swift in Sources */,
 				83A561802AC60236000B5BAF /* AccountBalance.swift in Sources */,
 				83A5616D2AC4B2B7000B5BAF /* CryptoWalletApp.swift in Sources */,

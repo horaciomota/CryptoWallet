@@ -10,9 +10,9 @@ import SwiftUI
 struct AccountBalance: View {
     var body: some View {
         
-        HStack(alignment:.bottom) {
+        HStack(alignment: .bottom) {
             
-            VStack (alignment: .leading, spacing: 4) {
+            VStack (alignment: .leading, spacing: 8) {
                 Text("Your account balance")
                     .font(.footnote)
                 Text("$30,432.09")
@@ -21,16 +21,20 @@ struct AccountBalance: View {
                     .foregroundColor(.primary)
             }
             
-            VStack (alignment: .leading)  {
+            HStack (spacing: 12)  {
+                Image(systemName: "arrow.up.backward")
+                    .font(.footnote)
+                    .foregroundColor(.green)
+
+
                 Text("4,34%")
-                    .font(.title)
+                    .font(.headline)
                     .fontWeight(.bold)
                     .foregroundColor(.green)
             }
             
         }
-        .padding(.top, 20)
-        .padding(.bottom, 20)
+        
 
 
 
