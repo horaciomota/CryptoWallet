@@ -16,6 +16,7 @@
 		83A561822AC619E9000B5BAF /* SingleCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561812AC619E9000B5BAF /* SingleCoin.swift */; };
 		83A561842AC7613F000B5BAF /* DayPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561832AC7613F000B5BAF /* DayPicker.swift */; };
 		83A561862AC76852000B5BAF /* ListOfCoins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561852AC76852000B5BAF /* ListOfCoins.swift */; };
+		83A561882AC76FD0000B5BAF /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561872AC76FD0000B5BAF /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		83A561812AC619E9000B5BAF /* SingleCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCoin.swift; sourceTree = "<group>"; };
 		83A561832AC7613F000B5BAF /* DayPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPicker.swift; sourceTree = "<group>"; };
 		83A561852AC76852000B5BAF /* ListOfCoins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCoins.swift; sourceTree = "<group>"; };
+		83A561872AC76FD0000B5BAF /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,17 @@
 				83A5617D2AC4BE97000B5BAF /* UserWelcome.swift */,
 				83A5617F2AC60236000B5BAF /* AccountBalance.swift */,
 				83A561812AC619E9000B5BAF /* SingleCoin.swift */,
+				83A561892AC771EA000B5BAF /* TabBar */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		83A561892AC771EA000B5BAF /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				83A561872AC76FD0000B5BAF /* MainTabView.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 				83A5617E2AC4BE97000B5BAF /* UserWelcome.swift in Sources */,
 				83A561802AC60236000B5BAF /* AccountBalance.swift in Sources */,
 				83A5616D2AC4B2B7000B5BAF /* CryptoWalletApp.swift in Sources */,
+				83A561882AC76FD0000B5BAF /* MainTabView.swift in Sources */,
 				83A561862AC76852000B5BAF /* ListOfCoins.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

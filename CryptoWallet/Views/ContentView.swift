@@ -24,12 +24,12 @@ struct ContentView: View {
                 DayPicker()
                 //Listofcoins
                 ListOfCoins()
+                MainTabView()
                 
                 
                 
                 //List of expenses
             }
-            Spacer()
             
         }
         .padding(.horizontal)
