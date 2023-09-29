@@ -15,15 +15,8 @@ struct ContentView: View {
                 //Login Image - Rounded
                 UserWelcomeView()
                 
-                ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 8) {
-                        ForEach(0..<10, id: \.self) { _ in
-                            SingleCoin()
-                            
-                        }
-                    }
-                }
-                
+                SingleCoin()
+          
                 
                 
                 //Account balance
