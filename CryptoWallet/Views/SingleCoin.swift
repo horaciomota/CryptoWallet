@@ -10,8 +10,6 @@ import SwiftUI
 struct SingleCoin: View {
     var body: some View {
         
-        ScrollView(.horizontal) {
-
                 VStack(alignment: .leading) {
                     
                     Circle()
@@ -41,7 +39,7 @@ struct SingleCoin: View {
                         
                         Text("23,7%")
                             .font(.footnote)
-                            .fontWeight(.light)
+                            .fontWeight(.bold)
                             .foregroundColor(.green)
                     }
             
@@ -53,9 +51,9 @@ struct SingleCoin: View {
             }
             .frame(minHeight: 180)
             .padding(.horizontal)
-            .background(Color.green)
+            .background(Color.white)
         .cornerRadius(22)
-        }
+        
         
     }
 }
