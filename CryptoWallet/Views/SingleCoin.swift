@@ -40,7 +40,7 @@ struct SingleCoin: View {
                                 
                                 HStack {
                                     
-                                    Image(systemName: "arrow.up.backward")
+                                    Image(systemName: "arrow.right")
                                         .font(.footnote)
                                         .foregroundColor(.green)
                                     

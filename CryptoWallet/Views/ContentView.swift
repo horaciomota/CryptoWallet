@@ -20,19 +20,19 @@ struct ContentView: View {
                 Text ("Your Transaction")
                     .font(.footnote)
                     .padding(.top, 10)
-                //Account balance
+                //DayPicker
                 DayPicker()
-                
+                //Listofcoins
                 ListOfCoins()
                 
                 
                 
                 //List of expenses
             }
-            .padding(.horizontal)
             Spacer()
             
         }
+        .padding(.horizontal)
         .background(Color.blue.opacity(0.1))
 
         

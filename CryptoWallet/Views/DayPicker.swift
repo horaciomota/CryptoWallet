@@ -36,7 +36,7 @@ struct DayPicker: View {
         .padding(.top, 3)
         .padding(.bottom, 3)
         .padding(.horizontal)
-        .frame(width: 370)
+//        .frame(width: 370)
         .background(Color.gray.opacity(0.2))
         .cornerRadius(10)
         
