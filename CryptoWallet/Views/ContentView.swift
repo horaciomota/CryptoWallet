@@ -22,7 +22,8 @@ struct ContentView: View {
                     .padding(.top, 10)
                 //Account balance
                 DayPicker()
-
+                
+                ListOfCoins()
                 
                 
                 

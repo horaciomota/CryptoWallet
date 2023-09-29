@@ -21,8 +21,9 @@ struct DayPicker: View {
             
             Text("This Week")
                 .font(.headline)
-                .padding()
-                .padding(.horizontal, 20)
+                .padding(.top, 10)
+                .padding(.bottom, 10)
+                .padding(.horizontal, 40)
                 .background(Color.white)
                 .cornerRadius(10)
             
