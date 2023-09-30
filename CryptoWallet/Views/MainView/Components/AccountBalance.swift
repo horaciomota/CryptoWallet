@@ -10,7 +10,7 @@ import SwiftUI
 struct AccountBalance: View {
     var body: some View {
         
-        HStack(alignment: .bottom) {
+        HStack(alignment: .center) {
             
             VStack (alignment: .leading, spacing: 8) {
                 Text("Your account balance")

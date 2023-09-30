@@ -40,20 +40,17 @@ struct UserWelcomeView: View {
                                 .font(.footnote)
                         }
                         .padding(12)
-                        .background(Color.secondary.opacity(0.3))
+                        .background(Color.secondary.opacity(0.2))
                         .cornerRadius(22)
                                             
                         Image(systemName: "externaldrive")
                             .padding(12)
-                            .background(Color.secondary.opacity(0.3))
+                            .background(Color.secondary.opacity(0.2))
                             .cornerRadius(22)
                     }
-                    
-                    
-
-                    
-                    
+        
                 }
+            .padding(.bottom, 12)
 
             
             AccountBalance ()
@@ -63,7 +60,7 @@ struct UserWelcomeView: View {
         .background(Color.white)
         .cornerRadius(22)
         .ignoresSafeArea()
-        .frame(height: 140)
+        .frame(height: 160)
 
 
 

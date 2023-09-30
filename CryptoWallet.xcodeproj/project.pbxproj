@@ -65,6 +65,7 @@
 		83A5616B2AC4B2B7000B5BAF /* CryptoWallet */ = {
 			isa = PBXGroup;
 			children = (
+				83A5616E2AC4B2B7000B5BAF /* ContentView.swift */,
 				83A5617B2AC4B3D4000B5BAF /* Views */,
 				83A5617A2AC4B3C7000B5BAF /* Network */,
 				83A5616C2AC4B2B7000B5BAF /* CryptoWalletApp.swift */,
@@ -93,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				83A5618A2AC84222000B5BAF /* MainView */,
-				83A5616E2AC4B2B7000B5BAF /* ContentView.swift */,
 				83A561892AC771EA000B5BAF /* TabBar */,
 			);
 			path = Views;
@@ -110,14 +110,22 @@
 		83A5618A2AC84222000B5BAF /* MainView */ = {
 			isa = PBXGroup;
 			children = (
+				83A5618B2AC8428C000B5BAF /* MainView.swift */,
+				83A5618D2AC85574000B5BAF /* Components */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		83A5618D2AC85574000B5BAF /* Components */ = {
+			isa = PBXGroup;
+			children = (
 				83A5617D2AC4BE97000B5BAF /* UserWelcome.swift */,
 				83A5617F2AC60236000B5BAF /* AccountBalance.swift */,
 				83A561852AC76852000B5BAF /* ListOfCoins.swift */,
 				83A561832AC7613F000B5BAF /* DayPicker.swift */,
 				83A561812AC619E9000B5BAF /* SingleCoin.swift */,
-				83A5618B2AC8428C000B5BAF /* MainView.swift */,
 			);
-			path = MainView;
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
