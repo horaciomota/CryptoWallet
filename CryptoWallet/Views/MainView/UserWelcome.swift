@@ -11,6 +11,7 @@ struct UserWelcomeView: View {
     var body: some View {
         
         VStack (alignment: .leading) {
+            Spacer()
             HStack (alignment: .center) {
                     HStack {
                         Circle()
@@ -53,18 +54,17 @@ struct UserWelcomeView: View {
                     
                     
                 }
-            .padding(.bottom, 18)
-            Divider()
 
-            
             
             AccountBalance ()
 
         }
-        .frame(minHeight: 220)
         .padding(.horizontal)
         .background(Color.white)
         .cornerRadius(22)
+        .ignoresSafeArea()
+        .frame(height: 140)
+
 
 
         

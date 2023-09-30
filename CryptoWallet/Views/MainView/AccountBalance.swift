@@ -34,7 +34,7 @@ struct AccountBalance: View {
             }
             
         }
-        
+        .padding(.bottom,22)
 
 
 

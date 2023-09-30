@@ -17,6 +17,7 @@
 		83A561842AC7613F000B5BAF /* DayPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561832AC7613F000B5BAF /* DayPicker.swift */; };
 		83A561862AC76852000B5BAF /* ListOfCoins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561852AC76852000B5BAF /* ListOfCoins.swift */; };
 		83A561882AC76FD0000B5BAF /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561872AC76FD0000B5BAF /* MainTabView.swift */; };
+		83A5618C2AC8428C000B5BAF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5618B2AC8428C000B5BAF /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		83A561832AC7613F000B5BAF /* DayPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPicker.swift; sourceTree = "<group>"; };
 		83A561852AC76852000B5BAF /* ListOfCoins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCoins.swift; sourceTree = "<group>"; };
 		83A561872AC76FD0000B5BAF /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		83A5618B2AC8428C000B5BAF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +92,8 @@
 		83A5617B2AC4B3D4000B5BAF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				83A5618A2AC84222000B5BAF /* MainView */,
 				83A5616E2AC4B2B7000B5BAF /* ContentView.swift */,
-				83A561852AC76852000B5BAF /* ListOfCoins.swift */,
-				83A561832AC7613F000B5BAF /* DayPicker.swift */,
-				83A5617D2AC4BE97000B5BAF /* UserWelcome.swift */,
-				83A5617F2AC60236000B5BAF /* AccountBalance.swift */,
-				83A561812AC619E9000B5BAF /* SingleCoin.swift */,
 				83A561892AC771EA000B5BAF /* TabBar */,
 			);
 			path = Views;
@@ -107,6 +105,19 @@
 				83A561872AC76FD0000B5BAF /* MainTabView.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		83A5618A2AC84222000B5BAF /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				83A5617D2AC4BE97000B5BAF /* UserWelcome.swift */,
+				83A5617F2AC60236000B5BAF /* AccountBalance.swift */,
+				83A561852AC76852000B5BAF /* ListOfCoins.swift */,
+				83A561832AC7613F000B5BAF /* DayPicker.swift */,
+				83A561812AC619E9000B5BAF /* SingleCoin.swift */,
+				83A5618B2AC8428C000B5BAF /* MainView.swift */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A561842AC7613F000B5BAF /* DayPicker.swift in Sources */,
+				83A5618C2AC8428C000B5BAF /* MainView.swift in Sources */,
 				83A5616F2AC4B2B7000B5BAF /* ContentView.swift in Sources */,
 				83A561822AC619E9000B5BAF /* SingleCoin.swift in Sources */,
 				83A5617E2AC4BE97000B5BAF /* UserWelcome.swift in Sources */,

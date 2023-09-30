@@ -4,7 +4,7 @@ struct MainTabView: View {
     var body: some View {
         TabView {
             // Substitua as visualizações de espaço reservado pelos seus próprios ContentView
-            ContentView()
+            MainView()
                 .tabItem {
                     Image(systemName: "house")
                     Text("Feed")
@@ -23,6 +23,7 @@ struct MainTabView: View {
                 }
         }
         .accentColor(.black)
+        .background(Color.white) // Defina o fundo como branco
     }
 }
 

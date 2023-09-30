@@ -62,7 +62,7 @@ struct SingleCoin: View {
                 }
             }
         }
-        
+
         
         
     }
